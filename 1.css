@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    /* background-color:rgb(208, 225, 233); */
+    background-image: url("bgbook.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:cursive;
+    margin:15px 223px 15px 223px;
+
+}
+#Book{
+    color: rgb(205, 174, 90);
+    text-decoration: overline solid;
+}
+.form{
+    padding:12px;
+    margin:15px 223px 15px 223px;
+
+}
+.labels{
+    font-size:25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    color: rgb(1, 20, 4);
+
+}
+
+.input_labels{
+    margin:8px 0px 5px 0px;
+    padding:8px;
+    height:15px;
+    width:300px;
+    font-size: 20px;
+    background-color:rgba(202, 237, 240, 0.698);
+
+}
+.submit{
+    margin:0px 0px 12px 250px;
+    padding:5px ;
+    height:35px;
+    font-size: 20px;
+
+    background-color: rgb(248, 146, 20);
+}
+.submit:hover{
+    background-color:rgba(232, 240, 166, 0.418);
+    transition: 0.1s ease-in;
+    padding:2px ;
+}
+/* TABLE DESIGNING */
+table{
+    margin:25px 123px 0px 223px;
+    border-collapse: collapse;
+    /* border coolapse is for removing inner border*/
+    width: 50%;
+    background-color:rgba(231, 228, 202, 0.61);
+    
+}
+table, tr,td{
+     border: 2px solid rgb(19, 1, 1);
+     padding:5px;
+}
+th{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+
+}
+td{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(43, 58, 4);
+}
+
+
+
+
+
+
